@@ -194,8 +194,6 @@ enroll_table.pack(fill="both", expand=True)
 
 ctk.CTkButton(tab3, text="Delete Selected Enrollment", command=delete_enrollment).pack()
 
-
-# старт
 refresh_students()
 refresh_courses()
 refresh_enrollments()
